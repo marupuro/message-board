@@ -2,8 +2,12 @@
 <%= @message.id %>
  のメッセージ詳細ページ</h1>
 
+
+<p>タイトル：<%= @message.title%></p>
+
+
 <p>
-<%= @message.content %>
+メッセージ:<%= @message.content %>
 </p>
 
 <%= link_to '一覧に戻りやーーす',messages_path%>
